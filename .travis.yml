@@ -17,7 +17,7 @@ script:
   - cd ITK-build
   # Build ITK
   - cmake ../ITK && make -j4
-  - mkdir ../build/ITK
+  - mkdir -p ../build/ITK
   - ITK_DESTDIR=`( cd ../build/ITK && pwd )`
   - make DESTDIR=$ITK_DESTDIR install
   - cd $ITK_DESTDIR
