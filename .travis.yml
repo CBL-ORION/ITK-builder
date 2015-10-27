@@ -24,4 +24,4 @@ script:
   - git init
   - git add -f .
   - 'git commit -m "${COMMIT_MESSAGE}"'
-  - git push -f git@github.com:CBL-OROIN/ITK-builds.git master:master
+  - git push -f git@github.com:CBL-ORION/ITK-builds.git master:master
